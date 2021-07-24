@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![Metrics](https://metrics.lecoq.io/firassziedan)
+
 <!--
 **firassziedan/firassziedan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
