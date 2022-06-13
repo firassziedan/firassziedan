@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "0 */4 * * *"}]
+  schedule: [{cron: "0 3 * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["main"]}
@@ -18,7 +18,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_order: base.header, base.activity+community, isocalendar, base.repositories, languages, topics
-          config_timezone: Europe/Rome
+          config_timezone: Asia/Amman
           plugin_achievements: yes
           plugin_achievements_only: >-
              polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
